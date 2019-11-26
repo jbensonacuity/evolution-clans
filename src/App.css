@@ -70,22 +70,26 @@ h2{
   border: 1px solid rgb(218, 0, 0);
 }
 
-.Renegades{
+.Renegades,
+.Fatebringers{
   background: black url('./assets/img/raid.png')  no-repeat center right;
   background-size: 30%;
 }
 
-.Renegades-border{
+.Renegades-border,
+.Fatebringers-border{
   border: 1px solid black;
 }
 
-.Outlaws{
-  background: rgb(0, 68, 255) url('./assets/img/nightfall.png')  no-repeat center right;
+.Outlaws,
+.Storm{
+  background: rgb(37, 0, 97) url('./assets/img/nightfall.png')  no-repeat center right;
   background-size: 30%;
 }
 
-.Outlaws-border{
-  border: 1px solid rgb(0, 68, 255);
+.Outlaws-border,
+.Storm-border{
+  border: 1px solid rgb(37, 0, 97);
 }
 
 .Warminds{
