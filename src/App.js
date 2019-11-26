@@ -28,7 +28,7 @@ class App extends Component {
 
         <Members 
           clanName="Fatebringers"
-          groupId="1204367"
+          groupId="2185897"
           platform="1"
           BASE_URL={this.state.BASE_URL}
           API_KEY={this.state.API_KEY} />
