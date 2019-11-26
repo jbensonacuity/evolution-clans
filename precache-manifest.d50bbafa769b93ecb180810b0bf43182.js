@@ -1,18 +1,18 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "037d1c4f08218a6828a69fc8db2657af",
+    "revision": "7911486946c9e36e13131af39f0d0af3",
     "url": "/evolution-clans/index.html"
   },
   {
-    "revision": "85b70af1f61d1082473c",
-    "url": "/evolution-clans/static/css/main.a9383a8c.chunk.css"
+    "revision": "055b13cb07d1d43bbc79",
+    "url": "/evolution-clans/static/css/main.a74b7b86.chunk.css"
   },
   {
     "revision": "55150fb501f86f86e41e",
     "url": "/evolution-clans/static/js/2.2efb67a8.chunk.js"
   },
   {
-    "revision": "85b70af1f61d1082473c",
+    "revision": "055b13cb07d1d43bbc79",
     "url": "/evolution-clans/static/js/main.315323ea.chunk.js"
   },
   {
