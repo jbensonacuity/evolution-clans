@@ -2,7 +2,7 @@
   "name": "evolution-clans",
   "version": "0.1.0",
   "private": true,
-  "homepage": "/evolution-teams/",
+  "homepage": "/evolution-clans/",
   "dependencies": {
     "moment-timezone": "^0.5.14",
     "react": "^16.2.0",
