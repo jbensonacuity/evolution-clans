@@ -12,7 +12,7 @@ class Members extends Component {
       clanName: props.clanName,
       platform: props.platform,
       members: [],
-      membersWithData : []
+      failedCall : false
     };
   }
 
@@ -22,15 +22,16 @@ class Members extends Component {
       .set("X-API-Key", this.state.API_KEY)
       .set("accept", "json")
       .end((err, res) => {
-        if(!err){
+        if (!err) {
           const results = JSON.parse(res.text);
           this.setState({
             members: results.Response.results
           });
+        } else {
+          this.setState({failedCall : true});
         }
       });
   }
-
 
   render() {
     const members = this.state.members.map((member, index) => {
@@ -38,7 +39,7 @@ class Members extends Component {
       return (
         <Member
           member={currentMember}
-          platform={this.state.platform}
+          platform={currentMember.destinyUserInfo.applicableMembershipTypes[0]}
           BASE_URL={this.props.BASE_URL}
           API_KEY={this.props.API_KEY}
           key={index.toString()}
@@ -46,9 +47,22 @@ class Members extends Component {
       );
     });
 
-
-    if(this.state.members.length === 0){
-      return <div></div>;
+    if (this.state.members.length === 0) {
+      return (
+        <div className={`clan ${this.state.clanName}-border`}>
+          <header className={this.state.clanName}>
+            <h2>{this.state.clanName}</h2>
+            <div className="member-number">
+              Number of members: <strong> 0 </strong>
+            </div>
+          </header>
+          <section className="members">
+            <div className="loading">
+              { this.state.failedCall ? "API call failed :(" : "Loading..." }
+            </div>
+          </section>
+        </div>
+      );
     } else {
       return (
         <div className={`clan ${this.state.clanName}-border`}>
@@ -58,13 +72,10 @@ class Members extends Component {
               Number of members: <strong> {members.length} </strong>
             </div>
           </header>
-          <section className="members">
-            { members }
-          </section>
+          <section className="members">{members}</section>
         </div>
       );
     }
-    
   }
 }
 

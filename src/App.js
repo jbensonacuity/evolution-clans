@@ -3,7 +3,6 @@ import React, {
 } from 'react';
 import './App.css';
 
-
 import Members from './components/members';
 
 class App extends Component {
@@ -22,14 +21,12 @@ class App extends Component {
         <Members 
           clanName="Knights"
           groupId="1770080"
-          platform="1"
           BASE_URL={this.state.BASE_URL}
           API_KEY={this.state.API_KEY} />
 
         <Members 
           clanName="Fatebringers"
           groupId="2185897"
-          platform="1"
           BASE_URL={this.state.BASE_URL}
           API_KEY={this.state.API_KEY} />
           
@@ -37,7 +34,6 @@ class App extends Component {
         <Members 
           clanName="Storm"
           groupId="2057456"
-          platform="2"
           BASE_URL={this.state.BASE_URL}
           API_KEY={this.state.API_KEY} />
           
