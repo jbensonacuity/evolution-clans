@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/evolution-teams/static/css/main.2437406e.chunk.css",
+    "main.js": "/evolution-teams/static/js/main.4ef64eb3.chunk.js",
+    "main.js.map": "/evolution-teams/static/js/main.4ef64eb3.chunk.js.map",
+    "runtime-main.js": "/evolution-teams/static/js/runtime-main.2e043f78.js",
+    "runtime-main.js.map": "/evolution-teams/static/js/runtime-main.2e043f78.js.map",
+    "static/js/2.2efb67a8.chunk.js": "/evolution-teams/static/js/2.2efb67a8.chunk.js",
+    "static/js/2.2efb67a8.chunk.js.map": "/evolution-teams/static/js/2.2efb67a8.chunk.js.map",
+    "index.html": "/evolution-teams/index.html",
+    "precache-manifest.aeec733d69d31e38995becd3a241d6cb.js": "/evolution-teams/precache-manifest.aeec733d69d31e38995becd3a241d6cb.js",
+    "service-worker.js": "/evolution-teams/service-worker.js",
+    "static/css/main.2437406e.chunk.css.map": "/evolution-teams/static/css/main.2437406e.chunk.css.map",
+    "static/media/App.css": "/evolution-teams/static/media/traveler.fc6efadc.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2e043f78.js",
+    "static/js/2.2efb67a8.chunk.js",
+    "static/css/main.2437406e.chunk.css",
+    "static/js/main.4ef64eb3.chunk.js"
+  ]
+}
