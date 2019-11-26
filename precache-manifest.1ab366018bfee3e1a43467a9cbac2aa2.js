@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "422a12ebd42d7329f67b3ec62febdbb8",
+    "revision": "db95c3a663e41ed20d7d00f03e7fbadf",
     "url": "/evolution-clans/index.html"
   },
   {
-    "revision": "4da1f632f13bea76114e",
+    "revision": "86d5f90187dcd8b8ff7a",
     "url": "/evolution-clans/static/css/main.0d47ae96.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/evolution-clans/static/js/2.f65332b4.chunk.js"
   },
   {
-    "revision": "4da1f632f13bea76114e",
-    "url": "/evolution-clans/static/js/main.f92dcf73.chunk.js"
+    "revision": "86d5f90187dcd8b8ff7a",
+    "url": "/evolution-clans/static/js/main.768076cf.chunk.js"
   },
   {
     "revision": "26830a2c7e88e3e68ecb",
