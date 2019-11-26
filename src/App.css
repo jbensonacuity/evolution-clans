@@ -1,0 +1,111 @@
+*{
+  box-sizing: border-box;
+}
+
+html,body{
+  color: white; 
+  background-color: #12171C;
+  font-family: -apple-system,BlinkMacSystemFont,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+
+.container{
+  width:100%;
+  display: flex;
+  flex-flow: row wrap;
+  background-size: cover;
+  width: 100%;
+  transition: opacity .3s ease-in 0.0s;
+  opacity: 1;
+  transform: translateY(0px);
+}
+
+h2{
+  font-size: 2.4rem;
+  font-weight: 200;
+  padding: 30px 10px;
+  margin: 0 5px;
+}
+
+.clan{
+  flex: 4;
+  min-width: 250px
+}
+
+.members{
+  display: flex;
+  flex-direction: column;
+}
+
+
+.member-number{
+  /* color:  #222933;; */
+  margin: 5px 5px 2px 5px;
+  padding:10px;
+  /* background-color: rgba(255, 255, 255, 0.897); */
+}
+.member{
+  position: relative;
+  color: white;
+  margin: 5px;
+  padding:10px;
+  background-color: #222933;
+  order: 2;
+}
+/* rgba(255,206,31,1) */
+.boot{
+  background-color:rgba(224,39,39,0.89);
+  order: 1;
+}
+.missing{
+  background-color: rgba(255,206,31,1);
+  color: rgb(18, 23, 28);
+}
+
+.Knights{
+  background: rgb(218, 0, 0) url('./assets/img/pvp.png') no-repeat center right;
+  background-size: 30%;
+}
+
+.Knights-border{
+  border: 1px solid rgb(218, 0, 0);
+}
+
+.Renegades{
+  background: black url('./assets/img/raid.png')  no-repeat center right;
+  background-size: 30%;
+}
+
+.Renegades-border{
+  border: 1px solid black;
+}
+
+.Outlaws{
+  background: rgb(0, 68, 255) url('./assets/img/nightfall.png')  no-repeat center right;
+  background-size: 30%;
+}
+
+.Outlaws-border{
+  border: 1px solid rgb(0, 68, 255);
+}
+
+.Warminds{
+  background: rgb(42, 0, 53) url('./assets/img/traveler.png')  no-repeat center right;
+  background-size: 30%;
+}
+
+.Warminds-border{
+  border: 1px solid rgb(42, 0, 53);
+}
+
+.admin:before{
+  content: "";
+  position: absolute;
+  width: 0px;
+  height: 0;
+  bottom: 0;
+  right: 0;
+  /* background-color: aquamarine; */
+  border: 10px solid white;
+  border-left: 10px solid transparent;
+  border-top: 10px solid transparent;
+}
