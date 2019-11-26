@@ -27,28 +27,15 @@ class App extends Component {
           API_KEY={this.state.API_KEY} />
 
         <Members 
-          clanName="Renegades"
+          clanName="Fatebringers"
           groupId="1204367"
           platform="1"
           BASE_URL={this.state.BASE_URL}
           API_KEY={this.state.API_KEY} />
           
-          {/* <Members 
-          clanName="Outlaws"
-          groupId="1442290"
-          platform="1"
-          BASE_URL={this.state.BASE_URL}
-          API_KEY={this.state.API_KEY} />
-
-        <Members 
-          clanName="Warminds"
-          groupId="2359892"
-          platform="1"
-          BASE_URL={this.state.BASE_URL}
-          API_KEY={this.state.API_KEY} /> */}
           
         <Members 
-          clanName="Exiles"
+          clanName="Storm"
           groupId="2057456"
           platform="2"
           BASE_URL={this.state.BASE_URL}
