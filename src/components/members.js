@@ -39,7 +39,7 @@ class Members extends Component {
       return (
         <Member
           member={currentMember}
-          platform={currentMember.destinyUserInfo.applicableMembershipTypes[0]}
+          platform={currentMember.destinyUserInfo.LastSeenDisplayNameType}
           BASE_URL={this.props.BASE_URL}
           API_KEY={this.props.API_KEY}
           key={index.toString()}
