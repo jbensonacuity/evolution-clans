@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/evolution-clans/precache-manifest.1ab366018bfee3e1a43467a9cbac2aa2.js"
+  "/evolution-clans/precache-manifest.c52d4a84f36dbe67de8a9dc4ec42b086.js"
 );
 
 self.addEventListener('message', (event) => {

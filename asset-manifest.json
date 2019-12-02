@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/evolution-clans/static/css/main.0d47ae96.chunk.css",
-    "main.js": "/evolution-clans/static/js/main.768076cf.chunk.js",
-    "main.js.map": "/evolution-clans/static/js/main.768076cf.chunk.js.map",
+    "main.js": "/evolution-clans/static/js/main.b6f57a3e.chunk.js",
+    "main.js.map": "/evolution-clans/static/js/main.b6f57a3e.chunk.js.map",
     "runtime-main.js": "/evolution-clans/static/js/runtime-main.5eb78892.js",
     "runtime-main.js.map": "/evolution-clans/static/js/runtime-main.5eb78892.js.map",
     "static/js/2.f65332b4.chunk.js": "/evolution-clans/static/js/2.f65332b4.chunk.js",
     "static/js/2.f65332b4.chunk.js.map": "/evolution-clans/static/js/2.f65332b4.chunk.js.map",
     "index.html": "/evolution-clans/index.html",
-    "precache-manifest.1ab366018bfee3e1a43467a9cbac2aa2.js": "/evolution-clans/precache-manifest.1ab366018bfee3e1a43467a9cbac2aa2.js",
+    "precache-manifest.c52d4a84f36dbe67de8a9dc4ec42b086.js": "/evolution-clans/precache-manifest.c52d4a84f36dbe67de8a9dc4ec42b086.js",
     "service-worker.js": "/evolution-clans/service-worker.js",
     "static/css/main.0d47ae96.chunk.css.map": "/evolution-clans/static/css/main.0d47ae96.chunk.css.map",
     "static/media/App.css": "/evolution-clans/static/media/traveler.fc6efadc.png"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.5eb78892.js",
     "static/js/2.f65332b4.chunk.js",
     "static/css/main.0d47ae96.chunk.css",
-    "static/js/main.768076cf.chunk.js"
+    "static/js/main.b6f57a3e.chunk.js"
   ]
 }
