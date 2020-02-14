@@ -36,6 +36,12 @@ class App extends Component {
           groupId="2057456"
           BASE_URL={this.state.BASE_URL}
           API_KEY={this.state.API_KEY} />
+        
+        <Members 
+          clanName="Outlaws"
+          groupId="4114610"
+          BASE_URL={this.state.BASE_URL}
+          API_KEY={this.state.API_KEY} />
           
       </div>
     );
