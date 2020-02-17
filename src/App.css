@@ -1,112 +1,127 @@
-*{
+/* Colours */
+:root {
+  --outlaws: #2A0035;
+  --knights: #DA0000;
+  --fatebringers: black;
+  --storm: #250061;
+  --boot: rgba(224, 39, 39, 0.89);
+  --missing: rgba(255, 206, 31, 1);
+}
+
+* {
   box-sizing: border-box;
 }
 
-html,body{
-  color: white; 
-  background-color: #12171C;
-  font-family: -apple-system,BlinkMacSystemFont,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+html,
+body {
+  color: white;
+  background-color: #12171c;
+  font-family: -apple-system, BlinkMacSystemFont, Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
-.container{
-  width:100%;
+.container {
+  width: 100%;
   display: flex;
   flex-flow: row wrap;
   background-size: cover;
   width: 100%;
-  transition: opacity .3s ease-in 0.0s;
+  transition: opacity 0.3s ease-in 0s;
   opacity: 1;
   transform: translateY(0px);
 }
 
-h2{
+h2 {
   font-size: 2.4rem;
   font-weight: 200;
   padding: 30px 10px;
   margin: 0 5px;
 }
 
-.clan{
+.clan {
   flex: 4;
-  min-width: 350px
+  min-width: 350px;
 }
 
-.loading{
+.loading {
   padding: 4rem;
   text-align: center;
 }
 
-.members{
+.members {
   display: flex;
   flex-direction: column;
 }
 
-
-.member-number{
-  /* color:  #222933;; */
+.member-number {
   margin: 5px 5px 2px 5px;
-  padding:10px;
-  /* background-color: rgba(255, 255, 255, 0.897); */
+  padding: 10px;
 }
-.member{
+.member {
   position: relative;
   color: white;
   margin: 5px;
-  padding:10px;
+  padding: 10px;
   background-color: #222933;
-  order: 2;
+  order: 3;
 }
-/* rgba(255,206,31,1) */
-.boot{
-  background-color:rgba(224,39,39,0.89);
+
+.boot {
+  background-color: var(--boot);
   order: 1;
 }
-.missing{
-  background-color: rgba(255,206,31,1);
+
+.missing {
+  background-color: var(--missing);
   color: rgb(18, 23, 28);
 }
 
-.Knights{
-  background: rgb(218, 0, 0) url('./assets/img/pvp.png') no-repeat center right;
+/* Knights */
+.Knights {
+  background: var(--knights) url("./assets/img/pvp.png") no-repeat center right;
   background-size: 30%;
 }
-
-.Knights-border{
-  border: 1px solid rgb(218, 0, 0);
+.Knights-border {
+  border: 1px solid var(--knights);
 }
 
+/* Renegades/Fatebringers */
 .Renegades,
-.Fatebringers{
-  background: black url('./assets/img/raid.png')  no-repeat center right;
+.Fatebringers {
+  background: black url("./assets/img/raid.png") no-repeat center right;
   background-size: 30%;
 }
-
 .Renegades-border,
-.Fatebringers-border{
+.Fatebringers-border {
   border: 1px solid black;
 }
 
-.Storm{
-  background: rgb(37, 0, 97) url('./assets/img/nightfall.png')  no-repeat center right;
+/* Strom */
+.Storm {
+  background: var(--storm) url("./assets/img/nightfall.png") no-repeat center
+    right;
   background-size: 30%;
 }
-
-.Storm-border{
-  border: 1px solid rgb(37, 0, 97);
+.Storm-border {
+  border: 1px solid var(--storm);
 }
 
+/* Outlaws/Warminds */
 .Outlaws,
-.Warminds{
-  background: rgb(42, 0, 53) url('./assets/img/traveler.png')  no-repeat center right;
+.Warminds {
+  background: var(--outlaws) url("./assets/img/traveler.png") no-repeat center
+    right;
   background-size: 30%;
 }
-
 .Outlaws-border,
-.Warminds-border{
-  border: 1px solid rgb(42, 0, 53);
+.Warminds-border {
+  border: 1px solid var(--outlaws);
 }
 
-.admin:before{
+.admin {
+  order: 2;
+}
+.admin:before {
   content: "";
   position: absolute;
   width: 0px;
