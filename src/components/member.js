@@ -8,9 +8,8 @@ const Member = ({member, platform}) => {
 	const lastPlayed = Moment.unix(member.lastOnlineStatusChange).fromNow();
 	const today = Moment(new Date());
 	const daysSincePlayed = Moment.unix(member.lastOnlineStatusChange).diff(today, 'days');
-	//const membershipType = member.bungieNetUserInfo ? member.bungieNetUserInfo.membershipType : "nope";
-	//const membershipId = member.bungieNetUserInfo ? member.bungieNetUserInfo.membershipId : "nope";
 
+// If a user has played/saved Destiny on multiple platforms show them e.g. (XB1, PSN)
 	const xsavePlatformDisplay = member.destinyUserInfo.applicableMembershipTypes.length === 1 ? "" : 
 		"(" + 
 		member.destinyUserInfo.applicableMembershipTypes.map(

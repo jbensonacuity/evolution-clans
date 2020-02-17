@@ -34,8 +34,8 @@ class Members extends Component {
   }
 
   render() {
-      //const sortedMembers = this.state.members.sort((a, b) => a.destinyUserInfo.LastSeenDisplayName.toString().toLowerCase() > b.destinyUserInfo.LastSeenDisplayName.toString().toLowerCase() ? 1 : -1);
-      const members = this.state.members.sort((a, b) => a.destinyUserInfo.LastSeenDisplayName.toString().toLowerCase() > b.destinyUserInfo.LastSeenDisplayName.toString().toLowerCase() ? 1 : -1)
+    // Members sorted alphabetically by username
+    const members = this.state.members.sort((a, b) => a.destinyUserInfo.LastSeenDisplayName.toString().toLowerCase() > b.destinyUserInfo.LastSeenDisplayName.toString().toLowerCase() ? 1 : -1)
         .map((member, index) => {
       const currentMember = member;
       return (

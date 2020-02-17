@@ -30,7 +30,6 @@ class App extends Component {
           BASE_URL={this.state.BASE_URL}
           API_KEY={this.state.API_KEY} />
           
-          
         <Members 
           clanName="Storm"
           groupId="2057456"
